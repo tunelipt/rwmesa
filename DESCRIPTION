@@ -1,0 +1,11 @@
+Package: rwmesa
+Version: 0.1
+Date: 2019-09-13
+Title: Controle do Mesa Giratória do Túnel de Vento do IPT
+Author: Paulo Jabardo [aut, cre]
+Maintainer: Paulo Jabardo <pjabardo@ipt.br>
+Depends: R (>= 3.1.0), XMLRPC, abstractmov
+Description: Cliente XML-RPC para a mesa giratória do túnel de vento do IPT.
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 6.1.1
