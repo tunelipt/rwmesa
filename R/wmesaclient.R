@@ -55,8 +55,8 @@ move.mesa <- function(dev, x, a=FALSE, r=FALSE, sync=FALSE){
 #' rmove(dev, 5)
 #'
 #' @export
-rmove.mesa <- function(dev, x='', y='', z='', sync=FALSE){
-    dev$rpc("move", x, y, z, FALSE, TRUE,sync)
+rmove.mesa <- function(dev, x, sync=FALSE){
+    dev$rpc("move", x, FALSE, TRUE,sync)
 }
 
 
